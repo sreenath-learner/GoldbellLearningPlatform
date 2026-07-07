@@ -1,0 +1,6 @@
+@GoldbellLearningPlatform.API_HostAddress = http://localhost:5267
+
+GET {{GoldbellLearningPlatform.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
