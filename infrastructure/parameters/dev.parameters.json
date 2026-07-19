@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "uksouth"
+    },
+    "resourceGroupName": {
+      "value": "rg-goldbell-dev-uks-01"
+    },
+    "virtualNetworkName": {
+      "value": "vnet-goldbell-dev-uks-01"
+    },
+    "addressPrefixes": {
+      "value": [
+        "10.0.0.0/16"
+      ]
+    },
+    "tags": {
+      "value": {
+        "Environment": "Development",
+        "Project": "GoldbellLearning",
+        "Owner": "Sreenath"
+      }
+    },
+    "appsubnetName": {
+      "value": "snet-app-dev-uks-01"
+    },
+    "appsubnetPrefix": {
+      "value": "10.0.1.0/24"
+    },
+    "networkSecurityGroupName": {
+        "value": "nsg-app-01-dev-uks"
+}
+  }
+}
